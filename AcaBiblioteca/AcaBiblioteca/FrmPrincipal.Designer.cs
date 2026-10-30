@@ -210,14 +210,17 @@
             // 
             btnLibros.AutoSize = true;
             btnLibros.BackColor = Color.White;
+            btnLibros.Cursor = Cursors.Hand;
             btnLibros.Dock = DockStyle.Top;
             btnLibros.FlatAppearance.BorderSize = 0;
-            btnLibros.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLibros.FlatStyle = FlatStyle.Flat;
+            btnLibros.Font = new Font("Segoe UI Black", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLibros.ForeColor = Color.Black;
             btnLibros.IconChar = FontAwesome.Sharp.IconChar.Book;
             btnLibros.IconColor = Color.Black;
             btnLibros.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnLibros.IconSize = 30;
+            btnLibros.ImageAlign = ContentAlignment.MiddleLeft;
             btnLibros.Location = new Point(0, 80);
             btnLibros.Margin = new Padding(0, 10, 0, 10);
             btnLibros.Name = "btnLibros";
