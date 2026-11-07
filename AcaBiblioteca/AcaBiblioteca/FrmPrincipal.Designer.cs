@@ -80,7 +80,7 @@
             btnSalir.IconColor = Color.Black;
             btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnSalir.IconSize = 30;
-            btnSalir.Location = new Point(0, 350);
+            btnSalir.Location = new Point(0, 395);
             btnSalir.Margin = new Padding(0, 10, 0, 10);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(329, 45);
@@ -103,7 +103,7 @@
             btnReportes.IconColor = Color.Black;
             btnReportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnReportes.IconSize = 30;
-            btnReportes.Location = new Point(0, 305);
+            btnReportes.Location = new Point(0, 350);
             btnReportes.Margin = new Padding(0, 10, 0, 10);
             btnReportes.Name = "btnReportes";
             btnReportes.Size = new Size(329, 45);
@@ -126,7 +126,7 @@
             btnPrestamos.IconColor = Color.Black;
             btnPrestamos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnPrestamos.IconSize = 30;
-            btnPrestamos.Location = new Point(0, 260);
+            btnPrestamos.Location = new Point(0, 305);
             btnPrestamos.Margin = new Padding(0, 10, 0, 10);
             btnPrestamos.Name = "btnPrestamos";
             btnPrestamos.Size = new Size(329, 45);
@@ -149,7 +149,7 @@
             btnEditoriales.IconColor = Color.Black;
             btnEditoriales.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnEditoriales.IconSize = 30;
-            btnEditoriales.Location = new Point(0, 215);
+            btnEditoriales.Location = new Point(0, 260);
             btnEditoriales.Margin = new Padding(0, 10, 0, 10);
             btnEditoriales.Name = "btnEditoriales";
             btnEditoriales.Size = new Size(329, 45);
@@ -172,7 +172,7 @@
             btnAutores.IconColor = Color.Black;
             btnAutores.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnAutores.IconSize = 30;
-            btnAutores.Location = new Point(0, 170);
+            btnAutores.Location = new Point(0, 215);
             btnAutores.Margin = new Padding(0, 10, 0, 10);
             btnAutores.Name = "btnAutores";
             btnAutores.Size = new Size(329, 45);
@@ -195,7 +195,7 @@
             btnUsuarios.IconColor = Color.Black;
             btnUsuarios.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnUsuarios.IconSize = 30;
-            btnUsuarios.Location = new Point(0, 125);
+            btnUsuarios.Location = new Point(0, 170);
             btnUsuarios.Margin = new Padding(0, 10, 0, 10);
             btnUsuarios.Name = "btnUsuarios";
             btnUsuarios.Size = new Size(329, 45);
@@ -214,14 +214,13 @@
             btnLibros.Dock = DockStyle.Top;
             btnLibros.FlatAppearance.BorderSize = 0;
             btnLibros.FlatStyle = FlatStyle.Flat;
-            btnLibros.Font = new Font("Segoe UI Black", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLibros.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             btnLibros.ForeColor = Color.Black;
             btnLibros.IconChar = FontAwesome.Sharp.IconChar.Book;
             btnLibros.IconColor = Color.Black;
             btnLibros.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnLibros.IconSize = 30;
-            btnLibros.ImageAlign = ContentAlignment.MiddleLeft;
-            btnLibros.Location = new Point(0, 80);
+            btnLibros.Location = new Point(0, 125);
             btnLibros.Margin = new Padding(0, 10, 0, 10);
             btnLibros.Name = "btnLibros";
             btnLibros.Size = new Size(329, 45);
@@ -263,7 +262,7 @@
             pnlLogo.Dock = DockStyle.Top;
             pnlLogo.Location = new Point(0, 0);
             pnlLogo.Name = "pnlLogo";
-            pnlLogo.Size = new Size(329, 80);
+            pnlLogo.Size = new Size(329, 125);
             pnlLogo.TabIndex = 0;
             // 
             // picLogo
@@ -341,7 +340,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sistema Gestión De Biblioteca";
             WindowState = FormWindowState.Maximized;
-            Load += FrmPrincipal_Load;
             pnlMenu.ResumeLayout(false);
             pnlMenu.PerformLayout();
             pnlLogo.ResumeLayout(false);

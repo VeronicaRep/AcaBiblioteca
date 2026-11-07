@@ -10,22 +10,22 @@ namespace AcaBiblioteca
             //Conexion conexion = new Conexion();
             //try
             //{
-            //  using (var conn = conexion.ObtenerConexion())
+              //  using (var conn = conexion.ObtenerConexion())
             //{
-            //  conn.Open();
-            // La conexión se ha establecido correctamente
-            //MessageBox.Show("Conexión a la base de datos establecida correctamente.",
-            //  "AcaBiblioteca",
-            // MessageBoxButtons.OK,
-            //MessageBoxIcon.Information);
-            //}
+              //  conn.Open();
+                // La conexión se ha establecido correctamente
+                //MessageBox.Show("Conexión a la base de datos establecida correctamente.",
+                  //  "AcaBiblioteca",
+                   // MessageBoxButtons.OK,
+                    //MessageBoxIcon.Information);
+                //}
             //}
             //catch (Exception ex)
             //{
-            //  MessageBox.Show("Error al conectar a la base de datos: " + ex.Message,
-            //    "AcaBiblioteca",
-            //  MessageBoxButtons.OK,
-            //MessageBoxIcon.Error);
+              //  MessageBox.Show("Error al conectar a la base de datos: " + ex.Message,
+                //    "AcaBiblioteca",
+                  //  MessageBoxButtons.OK,
+                    //MessageBoxIcon.Error);
             //}
 
             AbrirFormulario(new FrmInicio());
@@ -82,11 +82,6 @@ namespace AcaBiblioteca
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void FrmPrincipal_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
